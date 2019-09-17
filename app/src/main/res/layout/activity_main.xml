@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country Name!"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imgCountry"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="#FFC107"
+        android:padding="10dp"
+        android:text="Load An English Country"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+</LinearLayout>
